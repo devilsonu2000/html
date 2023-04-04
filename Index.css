@@ -1,0 +1,174 @@
+#tb1{
+border: 2px solid red;
+border-radius: 5px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#tb1 th{
+    border: 2px solid rosybrown;
+    border-radius: 5px;
+    text-align: center;
+    color: brown;
+}
+
+#tb1 td{
+border: 1px solid palevioletred;
+text-align: left;
+padding: 5px;
+margin: 3px;
+border-radius: 5px;
+color:black;
+}
+
+#tb2{
+    border-collapse: collapse;
+    border: 2px solid brown;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    #tb2 th{
+        border: 2px solid brown;
+        text-align: center;
+        color: brown;
+    }
+    
+    #tb2 td{
+    border: 1px solid brown;
+    text-align: left;
+    padding: 5px;
+    margin: 3px;
+    color: chocolate;
+    }
+
+    #list1{
+        color: crimson;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    #list2{
+        font-weight: 500;
+        color: darkgoldenrod;
+    }
+
+.pll{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* applying css on div  */
+
+.container{
+    text-align-last: center;
+    display: flex;
+    border: 1px solid rgb(255, 47, 47);
+    flex-direction: auto;
+    background-color: azure;
+    padding: 5px;
+    margin: 10px;
+}
+.first{
+    flex:1;
+    border: 1px solid gray;
+    background-color: darkgoldenrod;
+    height: 200px;
+    /* padding: 5px; */
+    border-radius: 10px;
+}
+.second{
+    flex:1;
+    border:1px solid hotpink;
+    background-color: darkgreen;
+    height: 150px;
+    margin:5px;
+    margin-top: 0;
+    border-radius: 10px;
+}
+.third{
+    flex:1;
+    border: 1px solid saddlebrown;
+    background-color: deepskyblue;
+    height: 250px;
+    border-radius: 10px;
+}
+ 
+
+/* applying css on header  */
+
+#hed{
+    background-color: azure;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+#hed h2{
+    color:blueviolet ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+/* applying css on whole document  */
+*{
+    margin: 20 px;
+}
+
+.navi{
+text-align: center;
+border: 1px solid firebrick;
+margin-top: 15px;
+
+}
+.navi li{
+list-style: none;
+border: 1px solid red;
+border-radius: 3px;
+background-color: silver;
+padding: 3px;
+margin: 20px;
+margin-top: 0;
+margin-bottom: 0;
+align-items: center;
+}
+
+.navi ul{
+    display: flex;
+}
+
+
+#sec{
+    text-align: center;
+    border: 2px solid chocolate;
+    margin: 10px;
+}
+
+#t1{
+    border: 2px solid green;
+    margin: 10px;
+}
+#t1 th{
+    border:1px solid crimson;
+
+}
+#t1 td{
+    border: 1px solid gold;
+    text-align: left;
+    padding: 5px;
+}
+#sec2{
+    border: 1px solid blue;
+    margin: 10px;
+    display: flex;
+}
+#d1{
+    border: 2px dotted green;
+    width: 100%;
+    margin: 10px;
+    padding-top: 10px;
+
+}
+#mtr{
+    width: 90%;
+    height: 20px;
+}
+
+
+
